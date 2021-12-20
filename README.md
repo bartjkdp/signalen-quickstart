@@ -6,7 +6,7 @@ Easily get the latest version of [Signalen](https://www.signalen.org) up and run
 docker-compose up
 ```
 
-Now visit the frontend via http://localhost:3001/ and the backoffice via http://localhost:3001/manage/.
+Now visit the frontend via http://localhost:3001/ and the backoffice via http://localhost:3001/manage/. The Django admin can be reached at http://localhost:8000/signals/admin/.
 
 You can login to the backoffice with:
 
