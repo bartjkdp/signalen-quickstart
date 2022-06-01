@@ -10,11 +10,6 @@ done
 # Run database migrations
 python manage.py migrate
 
-# Load areas
-python manage.py load_areas stadsdeel
-python manage.py load_areas cbs-gemeente-2019
-python manage.py load_areas sia-stadsdeel
-
 # Create signals.admin@example.com user
 echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(username='signals.admin@example.com').exists() or User.objects.create_superuser('signals.admin@example.com', 'signals.admin@example.com', 'password')" | python manage.py shell
 
